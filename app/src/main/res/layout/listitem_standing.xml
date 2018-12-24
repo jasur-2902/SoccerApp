@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="12dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:paddingTop="12dp">
+
+    <TextView
+        android:id="@+id/position"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:textColor="#1A1A1A"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#1A1A1A"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/matches_played"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textColor="#1A1A1A"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/goals_for"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textColor="#1A1A1A"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/goals_against"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textColor="#1A1A1A"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/points"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textColor="#1A1A1A"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
